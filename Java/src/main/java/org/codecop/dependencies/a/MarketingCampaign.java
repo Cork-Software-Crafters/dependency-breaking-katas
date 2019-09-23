@@ -10,6 +10,6 @@ public class MarketingCampaign {
     }
 
     public boolean isCrazySalesDay() {
-        return LocalDateTime.now().getDayOfWeek().compareTo(DayOfWeek.FRIDAY) == 0;
+        return LocalDateTime.now().getDayOfWeek().compareTo(DayOfWeek.TUESDAY) == 0;
     }
 }
