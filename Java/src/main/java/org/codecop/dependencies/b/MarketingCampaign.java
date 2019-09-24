@@ -14,7 +14,7 @@ public class MarketingCampaign {
     }
 
     public boolean isCrazySalesDay() {
-        return dayOfWeek().compareTo(DayOfWeek.FRIDAY) == 0;
+        return dayOfWeek().compareTo(DayOfWeek.TUESDAY) == 0;
     }
 
     private DayOfWeek dayOfWeek() {
